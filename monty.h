@@ -65,6 +65,7 @@ void handle_malloc_error(stack_t **stack, unsigned int line_number);
 void handle_unk_inst(char *opcode, stack_t **stack, unsigned int line_number);
 void handle_push_error(stack_t **stack, unsigned int line_number);
 void handle_pint_error(unsigned int line_number, stack_t **stack);
+void stack_too_short_error(unsigned int line_number, stack_t **stack);
 
 /* MISC functions */
 stack_t *add_node(stack_t **stack, const int n);
