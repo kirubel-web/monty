@@ -20,8 +20,6 @@ void execute(char *opcode, stack_t **stack, unsigned int line_number)
 		{"div", divv},
 		{"mul", mul},
 		{"mod", mod},
-		{"pchar", pchar},
-		{"pstr", pstr},
 		{NULL, NULL}
 	};
 	int i = 0;
