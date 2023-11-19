@@ -1,9 +1,9 @@
 #include "monty.h"
 
 /**
- * swap - swaps the top two elements of the stack
- * @stack: pointer to the top of the stack
- * @line_number: line number of the opcode
+ * swap - swaps elements of the stack
+ * @stack: top of the stack
+ * @line_number: line number
 */
 void swap(stack_t **stack, unsigned int line_number)
 {
