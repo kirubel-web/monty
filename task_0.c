@@ -1,9 +1,9 @@
 #include "monty.h"
 
 /**
- * push - pushes an element onto the stack
- * @stack: pointer to the top of the stack
- * @line_number: current line number of the opcode in the Monty file
+ * push - pushes an element
+ * @stack: top of the stack
+ * @line_number: line number
  */
 void push(stack_t **stack, unsigned int line_number)
 {
@@ -21,9 +21,9 @@ void push(stack_t **stack, unsigned int line_number)
 	}
 }
 /**
- * pall - prints all values on the stack
- * @stack: pointer to the top of the stack
- * @line_number: line number of the opcode
+ * pall - show values on the stack
+ * @stack: top of the stack
+ * @line_number: line number
  */
 void pall(stack_t **stack, unsigned int line_number)
 {

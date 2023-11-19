@@ -1,10 +1,10 @@
 #include "monty.h"
 
 /**
- * execute - executes a single opcode
- * @opcode: opcode to execute
- * @stack: pointer to the top of the stack
- * @line_number: line number of the opcode
+ * execute - executes operation
+ * @opcode: code operation
+ * @stack:  top of the stack
+ * @line_number: line number
  */
 void execute(char *opcode, stack_t **stack, unsigned int line_number)
 {
@@ -38,8 +38,8 @@ void execute(char *opcode, stack_t **stack, unsigned int line_number)
 }
 
 /**
- * execute_input - reads and executes opcodes from a file
- * @stack: pointer to the top of the stack
+ * execute_input - reads and executes operation from a file
+ * @stack: the stack
  */
 void execute_input(stack_t **stack)
 {

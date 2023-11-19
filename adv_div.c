@@ -1,9 +1,9 @@
 #include "monty.h"
 
 /**
- * divv - divides the second top element of the stack by the top element
- * @stack: double pointer to the head of the stack
- * @line_number: current line number in the file
+ * divv - divides the second top element
+ * @stack: double pointer
+ * @line_number: line number
  */
 void divv(stack_t **stack, unsigned int line_number)
 {

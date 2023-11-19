@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * add_node - adds a new node at the beginning of a stack_t list
+ * add_node - adds a new node
  * @stack: pointer to pointer of the top of the stack
  * @value: value to be added to the new node
  *
